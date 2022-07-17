@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Delpico - Traslados en Mendoza</title>
+</head>
+
+<body>
+    <header>
+        <!-- Contacto en el superior de la web -->
+
+                <div class="header__contacto-cajitas">
+                    <div>
+                        <img src="images/iconos/telefono.png" alt="Icono telefono">     
+                        <p>0800-333-4455</p>
+                    </div>
+                    <div>
+                         <img src="images/iconos/email.png" alt="Icono email" >     
+                         <p>hola@delpicotraslados.com.ar</p>
+                    </div>
+                </div>    
+                <div class="header__contacto-redes">
+                   <a href="facebook.com" target="_blank"><img src="images/iconos/facebook.png"  alt="Icono Facebook"></a>
+                   <a href="facebook.com" target="_blank"><img src="images/iconos/instagram.png" alt="Icono instagram"></a>
+                   <a href="facebook.com" target="_blank"><img src="images/iconos/twitter.png" alt="Icono Twitter"></a>
+               </div>
+           </div>
+           <!-- Menu de navegacion+Logo -->
+          <nav>
+            <div class="nav__logo">
+                <a href="index.html"><img src="images/logo1.png" alt="Logo Delpico Traslados"></a>
+            </div>   
+            <!--     Menu de navegacion-->
+            <div class="nav__menu">
+               <ul>
+                   <li>
+                       <a href="index.html">Inicio</a>
+                   </li>
+                   <li>
+                       <a href="/pages/tours.html">Tours</a>
+                   </li>
+                   <li>
+                       <a href="/pages/traslados.html">Traslados</a>
+                   </li>   
+                   <li>
+                       <a href="/pages/eventos.html">Eventos</a>
+                   </li>
+                   <li>
+                       <a href="/pages/nosotros.html">Nosotros</a>
+                   </li>
+               </ul>
+            </div>
+           </nav> 
+    </header>
+    <main>
+        <!-- Imagen Hero + Bot -->
+        <div class="Header__imagenHero">
+            <div>
+                <h2>
+                    <a href="/pages/tours.html">TOURS
+                    </a>
+                </h2>
+            </div>           
+        </div>
+<!-- Formulario de contacto inicio -->
+        <section class="main__formulario">
+            <form action="formulario.php">  
+                <div class="main__formulario-enviar">
+                <input type="text" id="name" placeholder="Nombre">
+                <input type="email" id="correo" placeholder="Email">
+                <input type="number" id="telefono" placeholder="Teléfono">
+                <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+           <!-- Seccion Servicios -->
+        <section class="main__servicios">
+            <div>
+                <h1>Traslados en Mendoza</h1>
+            </div>
+            <div class="main__servicios__ofrecidos">
+                <div>
+                    <img src="images/auto1.webp" alt="Traslados">
+                    <h4>Traslados</h4>
+                </div>
+                <div>
+                    <img src="images/citytour.jpeg" alt="City Tours">
+                    <h4>City Tours</h4>
+                </div>
+                <div>
+                    <img src="images/circuito-montana.jpg"  alt="Circuito de Montaña">
+                    <h4>Circuito de Montaña</h4>                   
+                </div>
+                <div>
+                    <img src="images/caminos-del-vino.jpg" alt="Caminos del Vino">
+                    <h4>Caminos del Vino</h4>
+                </div>
+            </div>
+        </section>
+        <!-- Seccion promocional -->
+        <section class="main__seccionPromocional main__uppercase">
+            <h3>Te invitamos a recorrer <span>Mendoza</span></h3>
+            <iframe src="https://www.youtube.com/embed/3BTXeKqM3_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <!-- Seccion Tours -->
+        <section class="main__tours">
+            <h2>Los Tours más elegidos</h2>
+            <div>
+                <img src="images/citytour-2.jfif" alt="Tour Ciudad de Mendoza">
+                <h4>Tour en Ciudad de Mendoza</h4>
+            </div>
+            <div>
+                <img src="images/Potrerillos.webp" alt="Tour Potrerillos">
+                <h4>Tour Potrerillos</h4>
+            </div>
+            <div>
+                <img src="images/cacheuta-tour.jpeg" alt="Tour Cacheuta">
+                <h4>Tour Cacheuta</h4>
+            </div>
+        </section>
+        <!-- Section newsletter y testimonios -->
+        <section class="main__newsletter">
+            <div class="main__newsletter--saber">
+                <h5>¿Quéres saber más sobre tours?</h5>
+                <form action="newsletter.php" class="newsletterSuscribe">
+                    <input type="email" id="email" placeholder="Email">
+                    <input type="submit" value="Suscribirme">
+                </form>
+            </div>
+            <div class="main__newsletter--testimonios">
+                <h4>Testimonio de nuestros clientes</h4>
+                <img src="images/cliente01.jpg" alt="Testimonio Cliente">
+                <h5>Juana Manzursti</h5>
+                <p>Lorem ipsum dolor sit, amet consectetu? Minima fugiat ab consequatur quis officia at nesciunt expedita commodi repudiandae.
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Caja Info izquierda -->
+        <div class="footerLogo centrar">
+              <div>
+                  <a href="index.html">
+                      <img src="images/logo1.png" alt="Logo" class="footerLogo_img">
+                  </a>
+              </div>
+              <div>
+                  <h3 class="mayusculas">Delpico Traslados</h3>
+                  <p>San Martin 123 - Ciudad de Mendoza</p>
+                  <p>Lunes a viernes de 08 a 21 horas</p>
+                  <p>0800-333-4455</p>
+                  <a href="#">Politica de cancelacion</a>
+              </div>
+           
+       </div>
+       <div class="menuFooterC"> 
+          <div>
+              <h4>Servicios</h4>
+              <p>Traslados</p>
+              <p>Traslados Corporativos</p>
+              <p>Bodegas</p>
+              <p>Caminos del Vino</p>
+          </div>
+          <div>
+              <h4>Tours Recomendados</h4>
+              <p>City Tour</p>
+              <p>Potrerillos</p>
+              <p>Cacheuta</p>
+              <p>Valle Grande</p>
+          </div>
+          <div>
+              <h4>Servicios Especiales</h4>
+              <p>Traslados para Eventos</p>
+              <p>Traslados Corporativos</p>
+              <p>Descuentos en Alojamientos</p>
+              <p>Escapadas weekend</p>
+          </div>
+      </div>
+      
+      <div class="footerRedes">
+          <div>
+              <h4 class="centrar">¡Contactanos!</h4>
+          </div>
+          <div class="footerWhatsapp">
+                <img src="images/iconos/whatsapp.png" alt="Whatsapp" class="footerIcon">
+                  <a href="https://api.whatsapp.com/send?phone=542616949732&text=Hola!%20Me%20contacto%20desde%20la%20web">
+                  <p>+54 9 2616 949732261</p>
+                  </a>
+                  
+          </div>
+              
+              <div class="footerWhatsapp">
+                  <img src="images/iconos/telefono.png" alt="Telefono" class="footerIcon">
+                  <a href="tel:
+                  08103334455">
+                  <p>08103334455</p>
+                  </a>
+              </div>
+              <div class="footerWhatsapp">
+                  <img src="images/iconos/email.png" alt="Icono email" class="footerIcon">
+                  <a href="mailto:hola@delpicotraslados.com.ar" target="_blank">
+                  <p>hola@delpicotraslados.com.ar</p>
+                  </a>
+              </div>
+              <div class="centrar">
+      
+                  <a href="facebook.com" target="_blank">
+                      <img src="images/iconos/facebook.png" alt="Icono Facebook" class="footerIcon">
+                  </a>
+                  <a href="twitter.com" target="_blank">
+                      <img src="images/iconos/twitter.png" alt="Icono Twitter" class="footerIcon">
+                  </a>
+                  <a href="instagram.com" target="_blank">
+                      <img src="images/iconos/instagram.png" alt="Icono Instagram" class="footerIcon">
+                  </a>
+              </div>
+          </div>
+         
+      <!-- </div> -->
+      
+          
+      </footer>
+
+</body>
+</html>
