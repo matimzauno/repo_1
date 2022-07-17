@@ -199,7 +199,7 @@ body main{
 /* Seccion promocional */
 .main__seccionPromocional{
     grid-area: promocional;
-    background-color: #9CB4CC ;
+    background:linear-gradient(to top, #E7F6F2, #9cb4cc) ;
     text-align: center;   
 }
     .main__seccionPromocional h3{
@@ -341,7 +341,11 @@ body footer{
     "menuFooter"
     "footerRedes";
 }
-  
+
+/* .linea__gradient{
+background: linear-gradient(to top, #E7F6F2, #9CB4CC);
+} */
+
 
 /* Estilo seccion Tours */
 .main__seccionTours{
