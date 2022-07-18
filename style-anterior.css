@@ -211,7 +211,7 @@ body main{
 /* Seccion promocional */
 .main__seccionPromocional{
     grid-area: promocional;
-    background:linear-gradient(to top, #E7F6F2, #9cb4cc);
+    background:linear-gradient(to top, #E7F6F2, #9cb4cc) ;
     text-align: center;   
 }
     .main__seccionPromocional h3{
@@ -316,8 +316,11 @@ footer{
 
 .footerRedes{
     grid-area: footerRedes;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
     padding-top: 1rem;
-}
+    }
     
 .footerWhatsapp{
     display: flex;
@@ -350,80 +353,10 @@ body footer{
     "menuFooter"
     "footerRedes";
 }
-  
-@media only screen and (min-width: 768px){
-    
-    .header__contacto-redes{
-        background-color: #7F8487;   
-    }
-        
-    nav{
-    display: flex;
-    justify-content: space-around; 
-    align-items: center;
-    }
-    .main__formulario-enviar{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around; 
-    }
-    .main__servicios__ofrecidos{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 
-    .main__newsletter{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-    
-    }
-    .main__newsletter--saber{
-        margin: 2rem;   
-    }
-        .menuFooterC{
-            grid-area: menuFooter;
-            display: flex;
-            flex-direction: row;
-            
-        }
-
-        .contenedorRedes{
-            display: flex;
-            flex-direction: row;
-        }
-
-
-            .footerIcon{
-                width: 15%;
-                padding-right: 5px;
-            
-            }
-        body header{
-            display: grid;
-            grid-template-columns: 3fr 1fr;
-            grid-template-rows: auto;
-            grid-template-areas: 
-            "hcontacto hredes"
-            "nav-logo nav-logo";           
-        }
-
-        body footer{
-            display: grid;
-            grid-template-columns: 1fr 3fr;
-            grid-template-rows: auto;
-            grid-template-areas: 
-            "footerLogo menuFooter" 
-            "footerLogo menuFooter"
-            "footerLogo footerRedes";
-        }
-    
-
-}
+/* .linea__gradient{
+background: linear-gradient(to top, #E7F6F2, #9CB4CC);
+} */
 
 
 /* Estilo seccion Tours */
